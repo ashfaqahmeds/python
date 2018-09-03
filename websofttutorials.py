@@ -1,4 +1,6 @@
 # Web-Soft-Tutorials:
+from typing import Dict, Union
+
 print('Hello Python World')  # print Hello Python World.
 
 # Variables:
@@ -165,4 +167,54 @@ print(min(marks), 'Minimum Marks')   # for minimum (lowest) marks type min(varia
 
 # Remove List:~
 del studentst
-print(studentst)     # it will not show the list because the list was deleted.
+# it will not show the list because the list was deleted.
+
+
+# Dictionary:~
+# in Dictionary we have a key and its value.
+# to access value we use its key.
+studic = {'Name': 'Ashfaq', 'Age': 18}  # so 'Name' is the key & 'Ashfaq' is Value.
+print(studic)                           # ':' sami colon is must to identify its a key.
+
+# Suppose to Check Name in Dictionary 'studic' , Simply Type
+print(studic ['Name'])
+
+# To Update Data In Dictionary:
+studic['Age'] = 19
+print(studic['Age'])
+
+# To Add Data in Dictionary:
+studic ['Gender'] = 'Male'
+print(studic['Gender'])
+
+# To Delete a Key:
+del studic['Gender']
+print(studic)
+
+# To Find the Length:
+# Means How Many Elements are there in it.
+print(len(studic)) # so the Elements are the Keys , there are 2 keys.
+
+# To Check the type:
+print(type(studic))
+
+# To check keys in Dictionary that created Above:
+print(studic.keys())
+
+# To Check Values in Dictionary that created Above:
+print(studic.values())
+
+# Add Data to the first Dictionary 'studic'.
+# first create second Dictionary.
+studic1 = { 'RollNo': 75459, 'Country': 'Pakistan'}
+print(studic1)
+# Now
+studic.update(studic1)
+print(studic)
+
+# To Clear a Dictionary:
+studic.clear()
+print(studic)
+
+# To Delete a Dictionary:
+del studic          # So its Completely deleted
