@@ -218,3 +218,43 @@ print(studic)
 
 # To Delete a Dictionary:
 del studic          # So its Completely deleted
+
+# Tuples:~
+# Tuples are just like a lists buy they are immutable objects means you can't change its values.it will remain same.
+
+# Make Tuple
+tuple = ('Ashfaq', 'Safdar', 'Irfan', 1, 2, 3)
+print(tuple)
+
+# To Access Tuple
+print(tuple[1])       # to access tuple you want to type tuple[] with square brackets
+
+# Slicing in tuple
+print(tuple[0:2])
+print(tuple[1:])
+
+# To Find length in tuple
+print(len(tuple))      # so there is 6 element in 'tuple'
+
+# "Basic Functions":
+
+# Concatenate tuples
+# first create second tuple to concatenate.
+tuple1 = (1, 2, 3, 4, 5, 6)
+print(tuple1)
+# Now
+tuple0 = tuple + tuple1
+print(tuple0)
+
+# it can repeative
+print(tuple * 2)          # its print tuple 2 times
+
+# Find a value in tuple
+print(5 in tuple1)
+
+# To find Maximum & Minimum No.
+print(max(tuple1))  # its show the Maximum No. in 'tuple1'
+print(min(tuple1))  # its show the Minimum No. in 'tuple1'
+
+# To delete tuple
+del tuple
