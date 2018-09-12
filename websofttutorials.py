@@ -258,5 +258,3 @@ print(min(tuple1))  # its show the Minimum No. in 'tuple1'
 
 # To delete tuple
 del tuple
-
-print(tuple)
