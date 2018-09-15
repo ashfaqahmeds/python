@@ -258,3 +258,11 @@ print(min(tuple1))  # its show the Minimum No. in 'tuple1'
 
 # To delete tuple
 del tuple
+
+# To Convert list into tuple
+list = ['lemon', 'apple']
+print(list)
+print(type(list))
+tuplex = tuple(list)
+print(tuplex)
+print(type(tuplex))
